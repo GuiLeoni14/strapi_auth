@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Author": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.author",
+      "required": true
+    },
+    "languagesUsing": {
+      "type": "richtext",
+      "required": true
+    },
+    "lastText": {
+      "type": "text",
+      "required": true,
+      "default": "Todos os direitos reservados"
+    }
+  }
+}

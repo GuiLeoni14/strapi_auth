@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_menu_menu_links",
+  "info": {
+    "displayName": "menuLink",
+    "icon": "list-ol",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 150
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

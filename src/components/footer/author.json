@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_authors",
+  "info": {
+    "displayName": "author",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Desenvolvido por Guilherme Leoni",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "default": "Olá! Me chamo Guilherme, sou um garoto apaixonado por programação e tecnologia!🙌❤️",
+      "required": true
+    }
+  }
+}

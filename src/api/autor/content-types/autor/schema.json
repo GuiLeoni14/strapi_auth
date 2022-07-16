@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autors",
+  "info": {
+    "singularName": "autor",
+    "pluralName": "autors",
+    "displayName": "autor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "autor"
+    }
+  }
+}
