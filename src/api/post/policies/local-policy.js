@@ -1,7 +1,6 @@
 module.exports = (policyContext, config, { strapi }) => {
   if (policyContext.state.user) { // if a session is open
     // go to next policy or reach the controller's action
-    console.log('passei aqui')
     return true;
   }
 
