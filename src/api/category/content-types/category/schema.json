@@ -21,12 +21,6 @@
       "targetField": "name",
       "required": true
     },
-    "posts": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::post.post",
-      "inversedBy": "categories"
-    },
     "cover": {
       "allowedTypes": [
         "images"
