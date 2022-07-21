@@ -1,4 +1,4 @@
-# Projeto-Next-Auth
+# Projeto-Strapi-Auth
 Este projeto foi desenvolvido durante o curso que estou realizando.
 > Status: Completed (Está aplicação corresponde ao back-end(cms)) ⚠️
 + Este Projeto tem ligação com: https://github.com/GuiLeoni14/nextjs_auth
